@@ -1,0 +1,185 @@
+[
+  {
+    "slug": "ai-gala",
+    "category": [
+      "live"
+    ],
+    "title": {
+      "zh": "中国·AI盛典",
+      "en": "China AI Gala"
+    },
+    "context": {
+      "zh": "开场秀影像 · 2026",
+      "en": "Opening show · 2026"
+    },
+    "content": {
+      "zh": "舞台影像 / 三维内容",
+      "en": "Stage content / 3D production"
+    }
+  },
+  {
+    "slug": "natgeo-crystal",
+    "category": [
+      "spatial"
+    ],
+    "title": {
+      "zh": "矿晶空间影像",
+      "en": "Crystal Landscape"
+    },
+    "context": {
+      "zh": "商业空间 · 2026",
+      "en": "Commercial interiors · 2026"
+    },
+    "content": {
+      "zh": "多屏内容 / 三维动画",
+      "en": "Multi-screen content / 3D animation"
+    }
+  },
+  {
+    "slug": "ufo-circular-series",
+    "category": [
+      "live",
+      "spatial"
+    ],
+    "title": {
+      "zh": "控时者 / 滴流",
+      "en": "TIMER / DROP FLOW"
+    },
+    "context": {
+      "zh": "环幕音画系列 · 2024—2026",
+      "en": "Panoramic audiovisual series · 2024–2026"
+    },
+    "content": {
+      "zh": "环幕内容 / 实时视觉",
+      "en": "Panoramic content / Realtime visuals"
+    }
+  },
+  {
+    "slug": "titan",
+    "category": [
+      "live"
+    ],
+    "title": {
+      "zh": "TITAN",
+      "en": "TITAN"
+    },
+    "context": {
+      "zh": "现场视觉系统 · 2025",
+      "en": "Live visual system · 2025"
+    },
+    "content": {
+      "zh": "实时视觉 / 演出播控",
+      "en": "Realtime visuals / Show control"
+    }
+  },
+  {
+    "slug": "west-bund-xuanxin",
+    "category": [
+      "spatial"
+    ],
+    "title": {
+      "zh": "西岸旋心 · round-a-clock",
+      "en": "West Bund · round-a-clock"
+    },
+    "context": {
+      "zh": "公共空间活动 · 2025",
+      "en": "Public-space event · 2025"
+    },
+    "content": {
+      "zh": "媒体流程 / 活动视觉",
+      "en": "Media workflow / Event visuals"
+    }
+  },
+  {
+    "slug": "system-ersha",
+    "category": [
+      "capture"
+    ],
+    "title": {
+      "zh": "SYSTEM × ERSHA",
+      "en": "SYSTEM × ERSHA"
+    },
+    "context": {
+      "zh": "建筑空间扫描 · 2026",
+      "en": "Architectural capture · 2026"
+    },
+    "content": {
+      "zh": "空间扫描 / 点云影像",
+      "en": "Spatial scanning / Point-cloud film"
+    }
+  },
+  {
+    "slug": "circular-matrix-screen",
+    "category": [
+      "live",
+      "spatial",
+      "interactive"
+    ],
+    "title": {
+      "zh": "CONTROL CLUB / MISSING SIGNALS",
+      "en": "CONTROL CLUB / MISSING SIGNALS"
+    },
+    "context": {
+      "zh": "环形矩阵屏幕系列 · 2025—2026",
+      "en": "Circular matrix-screen series · 2025–2026"
+    },
+    "content": {
+      "zh": "多屏编排 / 实时三维",
+      "en": "Multi-screen direction / Realtime 3D"
+    }
+  },
+  {
+    "slug": "automotive-launch",
+    "category": [
+      "live"
+    ],
+    "title": {
+      "zh": "汽车品牌发布会影像",
+      "en": "Automotive Launch Visuals"
+    },
+    "context": {
+      "zh": "品牌发布会",
+      "en": "Brand launch"
+    },
+    "content": {
+      "zh": "发布会影像 / 三维场景",
+      "en": "Launch visuals / 3D environments"
+    }
+  },
+  {
+    "slug": "interactive-media-wall",
+    "category": [
+      "interactive"
+    ],
+    "title": {
+      "zh": "商业空间互动墙",
+      "en": "Interactive Media Wall"
+    },
+    "context": {
+      "zh": "互动装置",
+      "en": "Interactive installation"
+    },
+    "content": {
+      "zh": "互动装置 / 动态图像",
+      "en": "Interactive installation / Moving image"
+    }
+  },
+  {
+    "slug": "public-light-installation",
+    "category": [
+      "spatial"
+    ],
+    "title": {
+      "zh": "公共空间光影装置",
+      "en": "Public Light Installation"
+    },
+    "context": {
+      "zh": "公共艺术装置",
+      "en": "Public art installation"
+    },
+    "content": {
+      "zh": "装置投影 / 空间影像",
+      "en": "Installation projection / Spatial media"
+    }
+  }
+]
