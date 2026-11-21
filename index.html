@@ -103,20 +103,11 @@ html[data-lang="zh"] .person-name{line-height:1.08;letter-spacing:-.035em}
 @media(max-width:620px){.ticker-inner{display:block;width:100%;max-width:100%;overflow:hidden;animation:none}.cap{grid-template-columns:34px minmax(0,1fr);gap:14px 16px}.cap-media{grid-column:2;width:min(160px,100%)}.cap-name,.cap-desc{grid-column:2;min-width:0}.cap-name{font-size:clamp(21px,7vw,32px)}.inquiry{padding-top:clamp(82px,23vw,96px)}html[data-lang="zh"] .hero-title{font-size:clamp(50px,15.5vw,72px);line-height:.98;max-width:7.2ch}html[data-lang="zh"] .section-title,html[data-lang="zh"] .team-title,html[data-lang="zh"] .workflow-copy h2,html[data-lang="zh"] .inquiry-copy h2{font-size:clamp(30px,9vw,42px);line-height:1.15}html[data-lang="zh"] .universe h3{font-size:clamp(32px,10vw,46px)}html[data-lang="zh"] .cap-name{word-break:normal;overflow-wrap:anywhere}html[data-lang="zh"] .contact{font-size:clamp(42px,14vw,66px);line-height:1.08;max-width:7ch}}
 
 .person--text .person-identity{grid-column:2}.person--text .person-copy{grid-column:3/-1}
-.member-projects{margin-top:clamp(52px,7vw,100px)}.member-projects .project{grid-column:span 4;min-height:440px}.member-projects .project-grid{margin-top:28px}.member-projects .meta{grid-template-columns:1fr}.member-projects .info{text-align:left}.member-projects .title{font-size:clamp(24px,2.5vw,36px)}
 @media(max-width:1180px){.person--text .person-copy{grid-column:3}}
-@media(max-width:840px){.person--text .person-identity,.person--text .person-copy{grid-column:2}.member-projects .project{grid-column:1/-1;min-height:480px}}
+@media(max-width:840px){.person--text .person-identity,.person--text .person-copy{grid-column:2}}
 
-.case-schematic{position:relative;width:100%;height:100%;min-height:380px;background:#111;color:#a3a39d;display:grid;place-items:center;overflow:hidden}
-.schematic-form{position:relative;width:64%;height:52%;border:1px solid #64645e}
-.schematic-form i{position:absolute;display:block;border:1px solid #64645e}
-.schematic-1 .schematic-form i:nth-child(1){inset:15% 10% 30%}.schematic-1 .schematic-form i:nth-child(2){left:20%;right:20%;bottom:10%;height:12%}.schematic-1 .schematic-form i:nth-child(3){left:-15%;right:-15%;bottom:-15%;height:0}
-.schematic-2 .schematic-form{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;border:0}.schematic-2 .schematic-form i{position:static;height:100%;background:repeating-linear-gradient(0deg,transparent 0 22%,#464640 22% 23%,transparent 23% 25%)}
-.schematic-3 .schematic-form{width:34%;height:58%;transform:skewY(-10deg)}.schematic-3 .schematic-form i:nth-child(1){inset:10% 15%}.schematic-3 .schematic-form i:nth-child(2){left:-65%;right:-65%;height:35%;bottom:-22%;transform:skewY(10deg);border-color:#464640}.schematic-3 .schematic-form i:nth-child(3){left:50%;top:0;bottom:0}
-.schematic-label{position:absolute;top:24px;left:24px;font-size:11px;letter-spacing:.04em;text-transform:uppercase}
-.project .case-schematic{position:absolute;inset:0;z-index:-1;min-height:0}.project .schematic-label{display:none}.hero>.case-schematic{position:absolute;inset:0;z-index:0}.hero>.hero-title,.hero>.hero-top,.hero>.hero-foot{z-index:1}.hero .schematic-form{opacity:.45}.hero .schematic-label{display:none}
   html[data-lang="zh"] .section-title .lang-zh{word-break:normal;overflow-wrap:anywhere}
-</style>
+  </style>
   <script>
    try{document.documentElement.dataset.lang=localStorage.getItem('virtura-language')||'zh'}catch(e){document.documentElement.dataset.lang='zh'}
   </script>
@@ -134,6 +125,23 @@ html[data-lang="zh"] .person-name{line-height:1.08;letter-spacing:-.035em}
 .collaborator-link{display:grid;grid-template-columns:minmax(180px,1fr) 2fr auto;gap:32px;align-items:center;padding:32px 0;border-bottom:1px solid var(--line)}
 .collaborator-link h3{font-size:28px}
 @media(max-width:840px){.portfolio-grid{grid-template-columns:1fr}.portfolio-link+.portfolio-link{border-left:0;padding-left:0}.collaborator-link{grid-template-columns:1fr;gap:18px}.nav .place{display:none}.nav-cta{white-space:nowrap}}
+  </style>
+  <style>
+   @media (min-width: 841px) {
+  #work > .project-grid > .project:nth-child(n+8) {
+    grid-column: span 4;
+    min-height: 480px;
+  }
+  #work > .project-grid > .project:nth-child(n+8) .meta {
+    grid-template-columns: 1fr;
+  }
+  #work > .project-grid > .project:nth-child(n+8) .info {
+    text-align: left;
+  }
+  #work > .project-grid > .project:nth-child(n+8) .title {
+    font-size: clamp(24px, 2.5vw, 36px);
+  }
+}
   </style>
  </head>
  <body>
@@ -517,167 +525,94 @@ html[data-lang="zh"] .person-name{line-height:1.08;letter-spacing:-.035em}
       </div>
      </div>
     </a>
-   </div>
-   <section aria-label="Lin Xuanzu selected project experience" class="member-projects">
-    <div class="section-head">
-     <div class="section-label bilingual-label">
+    <a class="project" data-project="automotive-launch" href="work/automotive-launch.html">
+     <img alt="汽车品牌发布会" class="visual" loading="lazy" src="assets/projects/automotive-launch/hero.png"/>
+     <span class="tag">
       <span class="lang-zh">
-       成员项目经验
+       品牌体验
       </span>
       <span class="lang-en">
-       Member Experience
+       Brand Experience
       </span>
+     </span>
+     <div class="meta">
+      <div class="title">
+       <span class="lang-zh">
+        汽车品牌发布会
+       </span>
+       <span class="lang-en">
+        Automotive Launch
+       </span>
+      </div>
+      <div class="info">
+       <span class="lang-zh">
+        发布会影像
+       </span>
+       <span class="lang-en">
+        Launch Visuals
+       </span>
+      </div>
      </div>
-     <p>
+    </a>
+    <a class="project" data-project="interactive-media-wall" href="work/interactive-media-wall.html">
+     <img alt="商业空间互动墙" class="visual" loading="lazy" src="assets/projects/interactive-media-wall/hero.png"/>
+     <span class="tag">
       <span class="lang-zh">
-       林玄祖过往项目选辑
+       互动体验
       </span>
       <span class="lang-en">
-       Selected prior projects by Lin Xuanzu
+       Interactive Experience
       </span>
-     </p>
-    </div>
-    <div class="project-grid">
-     <a class="project" data-project="automotive-launch" href="work/automotive-launch.html">
-      <div aria-label="空间示意 / Spatial schematic" class="case-schematic schematic-1" role="img">
-       <div class="schematic-form">
-        <i>
-        </i>
-        <i>
-        </i>
-        <i>
-        </i>
-       </div>
-       <span class="schematic-label">
-        <span class="lang-zh">
-         空间示意
-        </span>
-        <span class="lang-en">
-         Spatial Schematic
-        </span>
-       </span>
-      </div>
-      <span class="tag">
+     </span>
+     <div class="meta">
+      <div class="title">
        <span class="lang-zh">
-        品牌体验
+        商业空间互动墙
        </span>
        <span class="lang-en">
-        Brand Experience
-       </span>
-      </span>
-      <div class="meta">
-       <div class="title">
-        <span class="lang-zh">
-         汽车品牌发布会
-        </span>
-        <span class="lang-en">
-         Automotive Launch
-        </span>
-       </div>
-       <div class="info">
-        <span class="lang-zh">
-         林玄祖 · 过往项目经验
-        </span>
-        <span class="lang-en">
-         Lin Xuanzu · Prior Experience
-        </span>
-       </div>
-      </div>
-     </a>
-     <a class="project" data-project="interactive-media-wall" href="work/interactive-media-wall.html">
-      <div aria-label="空间示意 / Spatial schematic" class="case-schematic schematic-2" role="img">
-       <div class="schematic-form">
-        <i>
-        </i>
-        <i>
-        </i>
-        <i>
-        </i>
-       </div>
-       <span class="schematic-label">
-        <span class="lang-zh">
-         空间示意
-        </span>
-        <span class="lang-en">
-         Spatial Schematic
-        </span>
+        Interactive Media Wall
        </span>
       </div>
-      <span class="tag">
+      <div class="info">
        <span class="lang-zh">
-        互动体验
+        互动装置
        </span>
        <span class="lang-en">
-        Interactive Experience
+        Interactive Installation
        </span>
+      </div>
+     </div>
+    </a>
+    <a class="project" data-project="public-light-installation" href="work/public-light-installation.html">
+     <img alt="公共空间光影装置" class="visual" loading="lazy" src="assets/projects/public-light-installation/hero.jpg"/>
+     <span class="tag">
+      <span class="lang-zh">
+       公共空间
       </span>
-      <div class="meta">
-       <div class="title">
-        <span class="lang-zh">
-         商业空间互动墙
-        </span>
-        <span class="lang-en">
-         Interactive Media Wall
-        </span>
-       </div>
-       <div class="info">
-        <span class="lang-zh">
-         林玄祖 · 过往项目经验
-        </span>
-        <span class="lang-en">
-         Lin Xuanzu · Prior Experience
-        </span>
-       </div>
-      </div>
-     </a>
-     <a class="project" data-project="public-light-installation" href="work/public-light-installation.html">
-      <div aria-label="空间示意 / Spatial schematic" class="case-schematic schematic-3" role="img">
-       <div class="schematic-form">
-        <i>
-        </i>
-        <i>
-        </i>
-        <i>
-        </i>
-       </div>
-       <span class="schematic-label">
-        <span class="lang-zh">
-         空间示意
-        </span>
-        <span class="lang-en">
-         Spatial Schematic
-        </span>
-       </span>
-      </div>
-      <span class="tag">
+      <span class="lang-en">
+       Public Space
+      </span>
+     </span>
+     <div class="meta">
+      <div class="title">
        <span class="lang-zh">
-        公共空间
+        公共空间光影装置
        </span>
        <span class="lang-en">
-        Public Space
+        Public Light Installation
        </span>
-      </span>
-      <div class="meta">
-       <div class="title">
-        <span class="lang-zh">
-         公共空间光影装置
-        </span>
-        <span class="lang-en">
-         Public Light Installation
-        </span>
-       </div>
-       <div class="info">
-        <span class="lang-zh">
-         林玄祖 · 过往项目经验
-        </span>
-        <span class="lang-en">
-         Lin Xuanzu · Prior Experience
-        </span>
-       </div>
       </div>
-     </a>
-    </div>
-   </section>
+      <div class="info">
+       <span class="lang-zh">
+        装置投影
+       </span>
+       <span class="lang-en">
+        Installation Projection
+       </span>
+      </div>
+     </div>
+    </a>
+   </div>
   </section>
   <section id="portfolios">
    <div class="section-head">
@@ -939,10 +874,10 @@ html[data-lang="zh"] .person-name{line-height:1.08;letter-spacing:-.035em}
      </div>
      <div class="person-copy">
       <p class="bio-cn lang-zh">
-       创意策划、影像制作与新媒体艺术创作者，现居上海。毕业于米兰 NABA 新美术学院电影设计与新媒体艺术专业，实践涵盖品牌影像、商业活动、演出策划、艺术展览与城市公共空间。过往项目经验涵盖汽车品牌发布会、商业空间互动墙及公共空间光影装置。
+       创意策划、影像制作与新媒体艺术创作者，现居上海。毕业于米兰 NABA 新美术学院电影设计与新媒体艺术专业，实践涵盖品牌影像、商业活动、演出策划、艺术展览与城市公共空间。
       </p>
       <p class="bio-en lang-en">
-       A Shanghai-based practitioner working in creative planning, visual production and new media art. He graduated from NABA in Milan, specialising in Film Design and New Media Art. His practice spans brand films, commercial events, performance planning, exhibitions and urban public space. His past project experience includes automotive launches, interactive media walls and public light installations.
+       A Shanghai-based practitioner working in creative planning, visual production and new media art. He graduated from NABA in Milan, specialising in Film Design and New Media Art. His practice spans brand films, commercial events, performance planning, exhibitions and urban public space.
       </p>
      </div>
     </article>
